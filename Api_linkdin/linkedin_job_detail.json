@@ -1,0 +1,1892 @@
+{
+    "data": {
+        "data": {
+            "*jobsDashJobPostingsById": "urn:li:fsd_jobPosting:4347980933",
+            "$recipeTypes": [
+                "com.linkedin.08ad3a29995a4a9cf04009971184aad1"
+            ],
+            "$type": "com.linkedin.08ad3a29995a4a9cf04009971184aad1"
+        },
+        "errors": [
+            {
+                "path": [
+                    "jobsDashJobPostingsById",
+                    "jobBudget"
+                ],
+                "locations": [],
+                "extensions": {
+                    "classification": "DataFetchingException",
+                    "exceptionClass": "com.linkedin.voyager.common.VoyagerServiceException",
+                    "status": 403
+                },
+                "message": "Budget fetch cannot be completed due to invalid member urn:li:member:1607735653 for job posting urn:li:fsd_jobPosting:4347980933"
+            },
+            {
+                "path": [
+                    "jobsDashJobPostingsById",
+                    "jobPostingTalentQuestions"
+                ],
+                "locations": [],
+                "extensions": {
+                    "classification": "DataFetchingException",
+                    "exceptionClass": "com.linkedin.voyager.common.VoyagerServiceException",
+                    "status": 404
+                },
+                "message": "No OnlineJobPoster found for member urn:li:member:1607735653"
+            }
+        ]
+    },
+    "included": [
+        {
+            "entityUrn": "urn:li:fsd_geo:102868289",
+            "countryISOCode": "VN",
+            "abbreviatedLocalizedName": "Da Nang City, Vietnam",
+            "$recipeTypes": [
+                "com.linkedin.cb8e10f7f21f6c45fdbe724130e2613e"
+            ],
+            "defaultLocalizedName": "Da Nang City, Vietnam",
+            "$type": "com.linkedin.voyager.dash.common.Geo"
+        },
+        {
+            "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:97227543",
+            "$recipeTypes": [
+                "com.linkedin.19538b6dd453d8451227d9016dd56151"
+            ],
+            "following": false,
+            "$type": "com.linkedin.voyager.dash.feed.FollowingState"
+        },
+        {
+            "localizedName": "Full-time",
+            "entityUrn": "urn:li:fsd_employmentStatus:FULL_TIME",
+            "preDashEmploymentStatusUrn": "urn:li:fs_employmentStatus:FULL_TIME",
+            "$recipeTypes": [
+                "com.linkedin.7741f37e1823ce480c234bf41d7a48b3"
+            ],
+            "$type": "com.linkedin.voyager.dash.hiring.EmploymentStatus"
+        },
+        {
+            "name": "Software Development",
+            "entityUrn": "urn:li:fsd_industryV2:4",
+            "$recipeTypes": [
+                "com.linkedin.2730c0ab7ef0fd4c17ed35671269a68b"
+            ],
+            "$type": "com.linkedin.voyager.dash.identity.profile.IndustryV2"
+        },
+        {
+            "name": "Cyber Security Engineer",
+            "entityUrn": "urn:li:fsd_standardizedTitle:30001",
+            "$recipeTypes": [
+                "com.linkedin.965de6d1ee484df1530eebf0233d3905"
+            ],
+            "$type": "com.linkedin.voyager.dash.identity.profile.StandardizedTitle"
+        },
+        {
+            "preDashNormalizedJobPostingUrn": "urn:li:fs_normalized_jobPosting:4347980933",
+            "companyDetails": {
+                "jobCompany": {
+                    "rawCompanyName": null,
+                    "*company": "urn:li:fsd_company:97227543"
+                },
+                "name": "LG Electronics R&D Vietnam",
+                "logo": {
+                    "attributes": [
+                        {
+                            "scalingType": null,
+                            "detailData": {
+                                "profilePictureWithoutFrame": null,
+                                "profilePictureWithRingStatus": null,
+                                "icon": null,
+                                "systemImage": null,
+                                "*companyLogo": "urn:li:fsd_company:97227543",
+                                "nonEntityGroupLogo": null,
+                                "vectorImage": null,
+                                "nonEntityProfessionalEventLogo": null,
+                                "profilePicture": null,
+                                "imageUrl": null,
+                                "professionalEventLogo": null,
+                                "nonEntityCompanyLogo": null,
+                                "nonEntitySchoolLogo": null,
+                                "groupLogo": null,
+                                "schoolLogo": null,
+                                "ghostImage": null,
+                                "nonEntityProfilePicture": null
+                            },
+                            "tintColor": null,
+                            "$recipeTypes": [
+                                "com.linkedin.c80d22b5d601298829b1dfd562038547"
+                            ],
+                            "tapTargets": [],
+                            "displayAspectRatio": null,
+                            "$type": "com.linkedin.voyager.dash.common.image.ImageAttribute"
+                        }
+                    ],
+                    "editableAccessibilityText": false,
+                    "actionTarget": "https://www.linkedin.com/company/lg-electronics-development-vietnam/life",
+                    "accessibilityTextAttributes": [],
+                    "totalCount": null,
+                    "accessibilityText": "LG Electronics R&D Vietnam logo",
+                    "$recipeTypes": [
+                        "com.linkedin.3902eee3f0a7db54ae425fb83f3563b8"
+                    ],
+                    "$type": "com.linkedin.voyager.dash.common.image.ImageViewModel"
+                },
+                "emailVerificationEnrolled": false,
+                "backgroundCoverImage": null,
+                "$recipeTypes": [
+                    "com.linkedin.f24ca643189541eab7789c921a2bd735"
+                ],
+                "$type": "com.linkedin.voyager.dash.jobs.JobPostingCompany"
+            },
+            "encryptedPricingParameters": "CwIAAAGbeVxdGZrY6kSVe2xdNyLlMxQukNHRjJ5tTRqQJaCyEAKsHxGRGhxULYoQsWHDzF-TX5_mxUdvzYSRdu2ZVqUv1H57inrlpj2AUfTs8CuW-Fz78A2EiPZMyUz1qDhkkdOv-2dRCu8yLavWw4Qmh5-VZX-70pFSo8OP4WPPgc0sIl-jRu1S1Z-S-howPPDEdGB63rJID7mkA3dPkscYagRD680_d0vblio",
+            "eligibleForSharingProfileWithPoster": false,
+            "openToHiringJobShowcase": {
+                "paging": {
+                    "count": 10,
+                    "start": 0,
+                    "total": 0,
+                    "$recipeTypes": [
+                        "com.linkedin.e07c1e9eb6b10d5aa4ea8474b3c14237"
+                    ],
+                    "$type": "com.linkedin.restli.common.CollectionMetadata"
+                },
+                "$recipeTypes": [
+                    "com.linkedin.64bba40c16067b5b79968b5e9d5d4065"
+                ],
+                "elements": [],
+                "$type": "com.linkedin.restli.common.CollectionResponse"
+            },
+            "jobState": "LISTED",
+            "trackingUrn": "urn:li:jobPosting:4347980933",
+            "suspendReasons": [],
+            "description": {
+                "textDirection": "USER_LOCALE",
+                "text": "LG Electronics Development Vietnam (LGEDV) Company focuses on smart & ecofriendlyautomotive components. The VC Company produces high-quality & state of the art incarinfotainment systems that deliver both information and entertainment on-the-go for many ofthe world‘s biggest automobile brands.We, LG Electronics Development Vietnam (LGEDV), conduct core R&D activities, andvarious product reliability tests in support of our vehicle component business.As Cyber Security Feature Test of LGEDV in the Da Nang Office, you will:Investigate security features from the requirements to design and perform the security testcases;Create negative security test cases to perform on automotive productsResponsible for cyber security test case validation and issue tracking & follow-up;Research on automotive secure domainsComply with LGE engineering processes and methodologies\nGeneral requirements:Basic Qualifications:Background in IT, Science or EngineeringKnowledge of software testing technique (black box, grey box and white box testing)Good research and problem solving skillsAbility to handle ambiguity and make decisions and recommendations with limited dataHave experience in programing: Python, C/C++... or Automation testing\nPreferred Qualifications:1+ years of experience in automotive software development Or security development(firewall, TLS, secure boot, key management system, cryptography,...).Any Security field related certificates such as OSCPKnowledge and a strong mindset of/interest in information security principles and practices (network security, cryptography, etc.) and apply those for the purpose of data protection;Fluent English reading and writing to involve in security technical discussion with development team, HQ, Automotive OEMs …;Knowledge in software development methodology (V-Model, Waterfall, Agile/Scrum).\nWhat we offer:Hybrid Working EnvironmentAttractive and competitive salary package;RELOCATION PACKAGE UP-TO 20,000,000 VND for candidates willing to relocate to DN from HN / HCMC;13th-month salary + incentive bonus ( total remuneration package: UP TO 16-MONTH SALARY);Annual salary review;Monthly transportation allowanceSupport for lunch and other allowances (Coding Expert, Technical leader, phone...)Paid 100% of insurance socialPremium health care & accident insurance;Support fee to get TOEIC & Technical certifications;Provided UDEMY accountEnglish working environmentOn-site & training opportunities in Korea, US, UK, France, etc.;Company trip, sporty clubs (Football, Table Tennis, Badminton, Photography, Drawing, Music...);Monthly budget for team building activities, etc.12 days of annual leave & 8 additional days of company holidays;5 working days/ week: Mon – Fri with flexible working time;",
+                "attributesV2": [
+                    {
+                        "start": 0,
+                        "length": 81,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 81,
+                        "length": 84,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 165,
+                        "length": 90,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 255,
+                        "length": 38,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 293,
+                        "length": 80,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 373,
+                        "length": 79,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 452,
+                        "length": 72,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 524,
+                        "length": 91,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 615,
+                        "length": 6,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 621,
+                        "length": 69,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 690,
+                        "length": 83,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 773,
+                        "length": 37,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 810,
+                        "length": 55,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 621,
+                        "length": 244,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 865,
+                        "length": 1,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 866,
+                        "length": 21,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "BOLD",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 866,
+                        "length": 21,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 887,
+                        "length": 21,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 908,
+                        "length": 40,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 948,
+                        "length": 83,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1031,
+                        "length": 40,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1071,
+                        "length": 84,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1155,
+                        "length": 69,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 908,
+                        "length": 316,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1224,
+                        "length": 1,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1225,
+                        "length": 25,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1250,
+                        "length": 82,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1332,
+                        "length": 69,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1401,
+                        "length": 52,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1453,
+                        "length": 182,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1635,
+                        "length": 124,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1759,
+                        "length": 80,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1250,
+                        "length": 589,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1839,
+                        "length": 1,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1840,
+                        "length": 14,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "BOLD",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1840,
+                        "length": 14,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "PARAGRAPH",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1854,
+                        "length": 26,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1880,
+                        "length": 42,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1922,
+                        "length": 96,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 2018,
+                        "length": 89,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 2107,
+                        "length": 21,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 2128,
+                        "length": 32,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 2160,
+                        "length": 82,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 2242,
+                        "length": 29,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 2271,
+                        "length": 41,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 2312,
+                        "length": 52,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 2364,
+                        "length": 22,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 2386,
+                        "length": 27,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 2413,
+                        "length": 64,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 2477,
+                        "length": 95,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 2572,
+                        "length": 49,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 2621,
+                        "length": 64,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 2685,
+                        "length": 59,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST_ITEM",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    },
+                    {
+                        "start": 1854,
+                        "length": 890,
+                        "detailData": {
+                            "jobPostingName": null,
+                            "hyperlink": null,
+                            "profileFamiliarName": null,
+                            "color": null,
+                            "companyName": null,
+                            "icon": null,
+                            "epoch": null,
+                            "systemImage": null,
+                            "textLink": null,
+                            "listItemStyle": null,
+                            "groupName": null,
+                            "hyperlinkOpenExternally": null,
+                            "listStyle": null,
+                            "profileFullName": null,
+                            "stringFieldReference": null,
+                            "learningCourseName": null,
+                            "profileMention": null,
+                            "style": "LIST",
+                            "schoolName": null,
+                            "hashtag": null
+                        },
+                        "$recipeTypes": [
+                            "com.linkedin.c54c73059c1d25e3b2e5103554c739ba"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                    }
+                ],
+                "accessibilityTextAttributesV2": [],
+                "accessibilityText": null,
+                "$recipeTypes": [
+                    "com.linkedin.417df2cadb2ebfdc4b5892efb7842d42"
+                ],
+                "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+            },
+            "trustReviewDecision": null,
+            "title": "Cyber Security Test Engineer (Hybrid Working, Relocation Bonus, Sign-On Bonus)",
+            "originalListedAt": 1764300079000,
+            "createdAt": 1764300060000,
+            "skillsDescription": null,
+            "entityUrn": "urn:li:fsd_jobPosting:4347980933",
+            "*location": "urn:li:fsd_geo:102868289",
+            "trustReview": null,
+            "*standardizedTitle": "urn:li:fsd_standardizedTitle:30001",
+            "jobApplicationLimitReached": false,
+            "freeTrialExpireAt": null,
+            "trackingPixelUrl": null,
+            "closedAt": null,
+            "contractorJob": false,
+            "jobPostingTalentQuestions": null,
+            "*industryV2Taxonomy": [
+                "urn:li:fsd_industryV2:4"
+            ],
+            "repostedJob": true,
+            "expireAt": 1772076078000,
+            "listedAt": 1766369650000,
+            "$recipeTypes": [
+                "com.linkedin.a4b97aa43dd16f61c9b3a8109df86e35"
+            ],
+            "posterId": null,
+            "jobManagementEligibilities": {
+                "$recipeTypes": [
+                    "com.linkedin.01e757cb0a69ee6884c838273a2142d1"
+                ],
+                "elements": [],
+                "$type": "com.linkedin.restli.common.CollectionResponse"
+            },
+            "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+            "creditBasedPromotion": false,
+            "jobFunctions": [
+                "QA"
+            ],
+            "jobBudget": null,
+            "*employmentStatus": "urn:li:fsd_employmentStatus:FULL_TIME",
+            "companyApplyUrl": null,
+            "repostedJobId": null
+        },
+        {
+            "entityUrn": "urn:li:fsd_company:97227543",
+            "name": "LG Electronics R&D Vietnam",
+            "logoResolutionResult": {
+                "url": null,
+                "vectorImage": {
+                    "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQFrADUtlM4Z2g",
+                    "attribution": null,
+                    "c2paManifestData": null,
+                    "$recipeTypes": [
+                        "com.linkedin.9b54dbbb53d32412763e67325154c11f"
+                    ],
+                    "artifacts": [
+                        {
+                            "width": 200,
+                            "$recipeTypes": [
+                                "com.linkedin.b6160ce999fa10940ffc358745d099fe"
+                            ],
+                            "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1715921178798/lg_electronics_development_vietnam_ltd_logo?e=1769040000&v=beta&t=U_IRpx4wXR9MirRyxboaG9m8WlCR-oHH6Q04eNBQKr8",
+                            "expiresAt": 1769040000000,
+                            "height": 200,
+                            "$type": "com.linkedin.common.VectorArtifact"
+                        },
+                        {
+                            "width": 100,
+                            "$recipeTypes": [
+                                "com.linkedin.b6160ce999fa10940ffc358745d099fe"
+                            ],
+                            "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1715921178798/lg_electronics_development_vietnam_ltd_logo?e=1769040000&v=beta&t=bZJX-x0vrXXCw0PbGY-Sf_KgmNmrkV2q-4rhllcR8WY",
+                            "expiresAt": 1769040000000,
+                            "height": 100,
+                            "$type": "com.linkedin.common.VectorArtifact"
+                        },
+                        {
+                            "width": 400,
+                            "$recipeTypes": [
+                                "com.linkedin.b6160ce999fa10940ffc358745d099fe"
+                            ],
+                            "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1715921178798/lg_electronics_development_vietnam_ltd_logo?e=1769040000&v=beta&t=2fIEf1gfsy-75ZzfmNe5Zkr21Hx9FcDQ-5TkfspOsfs",
+                            "expiresAt": 1769040000000,
+                            "height": 400,
+                            "$type": "com.linkedin.common.VectorArtifact"
+                        }
+                    ],
+                    "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQFrADUtlM4Z2g/company-logo_",
+                    "$type": "com.linkedin.common.VectorImage"
+                }
+            },
+            "universalName": "lg-electronics-development-vietnam",
+            "*followingState": "urn:li:fsd_followingState:urn:li:fsd_company:97227543",
+            "$recipeTypes": [
+                "com.linkedin.3f02f5d286a223809fd26b0d619fe03a"
+            ],
+            "url": "https://www.linkedin.com/company/lg-electronics-development-vietnam/",
+            "$type": "com.linkedin.voyager.dash.organization.Company"
+        }
+    ]
+}
