@@ -1,0 +1,196 @@
+2026-03-15 18:11:26,014 [INFO] Loaded 25982 existing job IDs from linkedin_job_summaries.jsonl
+2026-03-15 18:11:26,014 [INFO] --- PHASE 1: SEARCHING ---
+2026-03-15 18:11:26,019 [INFO] Searching for: IT
+2026-03-15 18:11:26,631 [INFO] Keyword 'IT': Found 1 new jobs on page start=0
+2026-03-15 18:11:29,547 [INFO] Keyword 'IT': Found 2 new jobs on page start=25
+2026-03-15 18:11:32,937 [INFO] Keyword 'IT': Found 1 new jobs on page start=50
+2026-03-15 18:11:35,027 [INFO] Keyword 'IT': Found 1 new jobs on page start=75
+2026-03-15 18:11:37,856 [INFO] Keyword 'IT': Found 0 new jobs on page start=100
+2026-03-15 18:11:40,886 [INFO] Keyword 'IT': Found 1 new jobs on page start=125
+2026-03-15 18:11:43,426 [INFO] Keyword 'IT': Found 1 new jobs on page start=150
+2026-03-15 18:11:45,520 [INFO] Keyword 'IT': Found 0 new jobs on page start=175
+2026-03-15 18:11:48,777 [INFO] Keyword 'IT': Found 2 new jobs on page start=200
+2026-03-15 18:11:51,520 [INFO] Keyword 'IT': Found 0 new jobs on page start=225
+2026-03-15 18:11:53,810 [INFO] Keyword 'IT': Found 0 new jobs on page start=250
+2026-03-15 18:11:56,267 [INFO] Keyword 'IT': Found 1 new jobs on page start=275
+2026-03-15 18:11:59,686 [INFO] Keyword 'IT': Found 0 new jobs on page start=300
+2026-03-15 18:12:03,044 [INFO] Keyword 'IT': Found 0 new jobs on page start=325
+2026-03-15 18:12:06,451 [INFO] Keyword 'IT': Found 1 new jobs on page start=350
+2026-03-15 18:12:09,333 [INFO] Keyword 'IT': Found 0 new jobs on page start=375
+2026-03-15 18:12:11,907 [INFO] Keyword 'IT': Found 2 new jobs on page start=400
+2026-03-15 18:12:14,577 [INFO] Keyword 'IT': Found 1 new jobs on page start=425
+2026-03-15 18:12:17,377 [INFO] Keyword 'IT': Found 0 new jobs on page start=450
+2026-03-15 18:12:19,744 [INFO] Keyword 'IT': Found 1 new jobs on page start=475
+2026-03-15 18:12:22,271 [INFO] Keyword 'IT': Found 1 new jobs on page start=500
+2026-03-15 18:12:25,595 [INFO] Keyword 'IT': Found 1 new jobs on page start=525
+2026-03-15 18:12:28,001 [INFO] Keyword 'IT': Found 0 new jobs on page start=550
+2026-03-15 18:12:31,497 [INFO] Keyword 'IT': Found 1 new jobs on page start=575
+2026-03-15 18:12:33,765 [INFO] Keyword 'IT': Found 1 new jobs on page start=600
+2026-03-15 18:12:36,010 [INFO] Keyword 'IT': Found 0 new jobs on page start=625
+2026-03-15 18:12:38,554 [INFO] Keyword 'IT': Found 0 new jobs on page start=650
+2026-03-15 18:12:42,067 [INFO] Keyword 'IT': Found 1 new jobs on page start=675
+2026-03-15 18:12:44,194 [INFO] Keyword 'IT': Found 0 new jobs on page start=700
+2026-03-15 18:12:47,754 [INFO] Keyword 'IT': Found 1 new jobs on page start=725
+2026-03-15 18:12:50,579 [INFO] Keyword 'IT': Found 2 new jobs on page start=750
+2026-03-15 18:12:52,782 [INFO] Keyword 'IT': Found 1 new jobs on page start=775
+2026-03-15 18:12:55,532 [INFO] Keyword 'IT': Found 2 new jobs on page start=800
+2026-03-15 18:12:57,799 [INFO] Keyword 'IT': Found 1 new jobs on page start=825
+2026-03-15 18:13:00,933 [INFO] Keyword 'IT': Found 1 new jobs on page start=850
+2026-03-15 18:13:03,667 [INFO] Keyword 'IT': Found 1 new jobs on page start=875
+2026-03-15 18:13:06,140 [INFO] Keyword 'IT': Found 2 new jobs on page start=900
+2026-03-15 18:13:09,562 [INFO] Keyword 'IT': Found 3 new jobs on page start=925
+2026-03-15 18:13:12,485 [INFO] Keyword 'IT': Found 4 new jobs on page start=950
+2026-03-15 18:13:15,557 [INFO] Keyword 'IT': Found 4 new jobs on page start=975
+2026-03-15 18:13:17,798 [ERROR] Search error 400 for IT at 1000
+2026-03-15 18:13:17,798 [INFO] Searching for: INFORMATION TECHNOLOGY
+2026-03-15 18:13:18,297 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=0
+2026-03-15 18:13:20,362 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=25
+2026-03-15 18:13:22,583 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=50
+2026-03-15 18:13:26,031 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=75
+2026-03-15 18:13:28,357 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=100
+2026-03-15 18:13:31,463 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=125
+2026-03-15 18:13:34,283 [INFO] Keyword 'Information Technology': Found 2 new jobs on page start=150
+2026-03-15 18:13:36,336 [INFO] Keyword 'Information Technology': Found 3 new jobs on page start=175
+2026-03-15 18:13:39,428 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=200
+2026-03-15 18:13:42,847 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=225
+2026-03-15 18:13:45,105 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=250
+2026-03-15 18:13:47,835 [INFO] Keyword 'Information Technology': Found 2 new jobs on page start=275
+2026-03-15 18:13:50,627 [INFO] Keyword 'Information Technology': Found 4 new jobs on page start=300
+2026-03-15 18:13:52,819 [INFO] Keyword 'Information Technology': Found 2 new jobs on page start=325
+2026-03-15 18:13:56,242 [INFO] Keyword 'Information Technology': Found 3 new jobs on page start=350
+2026-03-15 18:13:59,571 [INFO] Keyword 'Information Technology': Found 3 new jobs on page start=375
+2026-03-15 18:14:03,018 [INFO] Keyword 'Information Technology': Found 4 new jobs on page start=400
+2026-03-15 18:14:05,967 [INFO] Keyword 'Information Technology': Found 4 new jobs on page start=425
+2026-03-15 18:14:08,791 [INFO] Keyword 'Information Technology': Found 2 new jobs on page start=450
+2026-03-15 18:14:11,538 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=475
+2026-03-15 18:14:14,779 [INFO] Keyword 'Information Technology': Found 6 new jobs on page start=500
+2026-03-15 18:14:17,841 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=525
+2026-03-15 18:14:21,044 [INFO] Keyword 'Information Technology': Found 7 new jobs on page start=550
+2026-03-15 18:14:23,329 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=575
+2026-03-15 18:14:26,281 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=600
+2026-03-15 18:14:29,570 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=625
+2026-03-15 18:14:32,527 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=650
+2026-03-15 18:14:35,343 [INFO] Keyword 'Information Technology': Found 2 new jobs on page start=675
+2026-03-15 18:14:37,684 [INFO] Keyword 'Information Technology': Found 3 new jobs on page start=700
+2026-03-15 18:14:40,554 [INFO] Keyword 'Information Technology': Found 2 new jobs on page start=725
+2026-03-15 18:14:43,391 [INFO] Keyword 'Information Technology': Found 3 new jobs on page start=750
+2026-03-15 18:14:46,432 [INFO] Keyword 'Information Technology': Found 2 new jobs on page start=775
+2026-03-15 18:14:49,139 [INFO] Keyword 'Information Technology': Found 3 new jobs on page start=800
+2026-03-15 18:14:52,144 [INFO] Keyword 'Information Technology': Found 3 new jobs on page start=825
+2026-03-15 18:14:54,283 [INFO] Keyword 'Information Technology': Found 4 new jobs on page start=850
+2026-03-15 18:14:56,902 [INFO] Keyword 'Information Technology': Found 4 new jobs on page start=875
+2026-03-15 18:15:00,281 [INFO] Keyword 'Information Technology': Found 5 new jobs on page start=900
+2026-03-15 18:15:02,536 [INFO] Keyword 'Information Technology': Found 4 new jobs on page start=925
+2026-03-15 18:15:05,327 [INFO] Keyword 'Information Technology': Found 2 new jobs on page start=950
+2026-03-15 18:15:08,162 [INFO] Keyword 'Information Technology': Found 4 new jobs on page start=975
+2026-03-15 18:15:10,813 [ERROR] Search error 400 for Information Technology at 1000
+2026-03-15 18:15:44,360 [INFO] Stopped by user.
+2026-03-15 18:15:44,408 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000293C2AE07C0>
+2026-03-15 18:15:44,410 [ERROR] Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x00000293C2B16FE0>, 2254.328)])']
+connector: <aiohttp.connector.TCPConnector object at 0x00000293C2AE0850>
+2026-03-15 18:15:44,413 [ERROR] Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x00000293C2AE19C0>
+transport: <_ProactorSocketTransport fd=828 read=<_OverlappedFuture cancelled>>
+Traceback (most recent call last):
+  File "C:\Users\trand\AppData\Local\Programs\Python\Python310\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\trand\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 365, in write
+    self._loop_writing(data=bytes(data))
+  File "C:\Users\trand\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 401, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-03-15 18:16:24,764 [INFO] Loaded 25982 existing job IDs from linkedin_job_summaries.jsonl
+2026-03-15 18:16:24,766 [INFO] --- PHASE 1: SEARCHING ---
+2026-03-15 18:16:24,766 [INFO] Searching for: IT
+2026-03-15 18:16:25,452 [INFO] Keyword 'IT': Found 1 new jobs on page start=0
+2026-03-15 18:16:28,287 [INFO] Keyword 'IT': Found 2 new jobs on page start=25
+2026-03-15 18:16:31,142 [INFO] Keyword 'IT': Found 1 new jobs on page start=50
+2026-03-15 18:16:33,371 [INFO] Keyword 'IT': Found 0 new jobs on page start=75
+2026-03-15 18:16:36,659 [INFO] Keyword 'IT': Found 1 new jobs on page start=100
+2026-03-15 18:16:39,733 [INFO] Keyword 'IT': Found 0 new jobs on page start=125
+2026-03-15 18:16:41,952 [INFO] Keyword 'IT': Found 1 new jobs on page start=150
+2026-03-15 18:16:45,220 [INFO] Keyword 'IT': Found 0 new jobs on page start=175
+2026-03-15 18:16:47,375 [INFO] Keyword 'IT': Found 0 new jobs on page start=200
+2026-03-15 18:16:50,562 [INFO] Keyword 'IT': Found 1 new jobs on page start=225
+2026-03-15 18:16:54,027 [INFO] Keyword 'IT': Found 1 new jobs on page start=250
+2026-03-15 18:16:56,193 [INFO] Keyword 'IT': Found 1 new jobs on page start=275
+2026-03-15 18:16:59,160 [INFO] Keyword 'IT': Found 1 new jobs on page start=300
+2026-03-15 18:17:01,720 [INFO] Keyword 'IT': Found 0 new jobs on page start=325
+2026-03-15 18:17:05,436 [INFO] Keyword 'IT': Found 1 new jobs on page start=350
+2026-03-15 18:17:08,981 [INFO] Keyword 'IT': Found 0 new jobs on page start=375
+2026-03-15 18:17:12,508 [INFO] Keyword 'IT': Found 0 new jobs on page start=400
+2026-03-15 18:17:15,188 [INFO] Keyword 'IT': Found 0 new jobs on page start=425
+2026-03-15 18:17:18,248 [INFO] Keyword 'IT': Found 1 new jobs on page start=450
+2026-03-15 18:17:21,532 [INFO] Keyword 'IT': Found 2 new jobs on page start=475
+2026-03-15 18:17:24,558 [INFO] Keyword 'IT': Found 0 new jobs on page start=500
+2026-03-15 18:17:27,369 [INFO] Keyword 'IT': Found 3 new jobs on page start=525
+2026-03-15 18:17:29,878 [INFO] Keyword 'IT': Found 0 new jobs on page start=550
+2026-03-15 18:17:32,478 [INFO] Keyword 'IT': Found 3 new jobs on page start=575
+2026-03-15 18:17:35,838 [INFO] Keyword 'IT': Found 1 new jobs on page start=600
+2026-03-15 18:17:39,271 [INFO] Keyword 'IT': Found 1 new jobs on page start=625
+2026-03-15 18:17:42,759 [INFO] Keyword 'IT': Found 3 new jobs on page start=650
+2026-03-15 18:17:45,035 [INFO] Keyword 'IT': Found 1 new jobs on page start=675
+2026-03-15 18:17:48,258 [INFO] Keyword 'IT': Found 0 new jobs on page start=700
+2026-03-15 18:17:50,440 [INFO] Keyword 'IT': Found 2 new jobs on page start=725
+2026-03-15 18:17:52,889 [INFO] Keyword 'IT': Found 2 new jobs on page start=750
+2026-03-15 18:17:55,538 [INFO] Keyword 'IT': Found 1 new jobs on page start=775
+2026-03-15 18:17:58,377 [INFO] Keyword 'IT': Found 1 new jobs on page start=800
+2026-03-15 18:18:01,586 [INFO] Keyword 'IT': Found 0 new jobs on page start=825
+2026-03-15 18:18:04,981 [INFO] Keyword 'IT': Found 2 new jobs on page start=850
+2026-03-15 18:18:07,947 [INFO] Keyword 'IT': Found 2 new jobs on page start=875
+2026-03-15 18:18:10,773 [INFO] Keyword 'IT': Found 2 new jobs on page start=900
+2026-03-15 18:18:13,060 [INFO] Keyword 'IT': Found 2 new jobs on page start=925
+2026-03-15 18:18:16,317 [INFO] Keyword 'IT': Found 0 new jobs on page start=950
+2026-03-15 18:18:19,060 [INFO] Keyword 'IT': Found 0 new jobs on page start=975
+2026-03-15 18:18:22,188 [ERROR] Search error 400 for IT at 1000
+2026-03-15 18:18:22,188 [INFO] Searching for: INFORMATION TECHNOLOGY
+2026-03-15 18:18:22,741 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=0
+2026-03-15 18:18:25,632 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=25
+2026-03-15 18:18:27,949 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=50
+2026-03-15 18:18:31,315 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=75
+2026-03-15 18:18:34,573 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=100
+2026-03-15 18:18:36,648 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=125
+2026-03-15 18:18:39,343 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=150
+2026-03-15 18:18:41,810 [INFO] Keyword 'Information Technology': Found 2 new jobs on page start=175
+2026-03-15 18:18:44,583 [INFO] Keyword 'Information Technology': Found 4 new jobs on page start=200
+2026-03-15 18:18:48,004 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=225
+2026-03-15 18:18:51,240 [INFO] Keyword 'Information Technology': Found 2 new jobs on page start=250
+2026-03-15 18:18:54,409 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=275
+2026-03-15 18:18:57,374 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=300
+2026-03-15 18:19:00,564 [INFO] Keyword 'Information Technology': Found 4 new jobs on page start=325
+2026-03-15 18:19:03,679 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=350
+2026-03-15 18:19:06,732 [INFO] Keyword 'Information Technology': Found 2 new jobs on page start=375
+2026-03-15 18:19:08,983 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=400
+2026-03-15 18:19:12,027 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=425
+2026-03-15 18:19:15,588 [INFO] Keyword 'Information Technology': Found 5 new jobs on page start=450
+2026-03-15 18:19:18,358 [INFO] Keyword 'Information Technology': Found 4 new jobs on page start=475
+2026-03-15 18:19:21,728 [INFO] Keyword 'Information Technology': Found 3 new jobs on page start=500
+2026-03-15 18:19:24,344 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=525
+2026-03-15 18:19:26,668 [INFO] Keyword 'Information Technology': Found 6 new jobs on page start=550
+2026-03-15 18:19:29,147 [INFO] Keyword 'Information Technology': Found 2 new jobs on page start=575
+2026-03-15 18:19:31,765 [INFO] Keyword 'Information Technology': Found 4 new jobs on page start=600
+2026-03-15 18:19:33,923 [INFO] Keyword 'Information Technology': Found 3 new jobs on page start=625
+2026-03-15 18:19:36,881 [INFO] Keyword 'Information Technology': Found 4 new jobs on page start=650
+2026-03-15 18:19:39,763 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=675
+2026-03-15 18:19:42,565 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=700
+2026-03-15 18:19:45,145 [INFO] Keyword 'Information Technology': Found 0 new jobs on page start=725
+2026-03-15 18:19:48,062 [INFO] Keyword 'Information Technology': Found 2 new jobs on page start=750
+2026-03-15 18:19:50,495 [INFO] Keyword 'Information Technology': Found 4 new jobs on page start=775
+2026-03-15 18:19:52,763 [INFO] Keyword 'Information Technology': Found 3 new jobs on page start=800
+2026-03-15 18:19:55,559 [INFO] Keyword 'Information Technology': Found 3 new jobs on page start=825
+2026-03-15 18:19:58,002 [INFO] Keyword 'Information Technology': Found 3 new jobs on page start=850
+2026-03-15 18:20:00,241 [INFO] Keyword 'Information Technology': Found 4 new jobs on page start=875
+2026-03-15 18:20:03,085 [INFO] Keyword 'Information Technology': Found 6 new jobs on page start=900
+2026-03-15 18:20:06,488 [INFO] Keyword 'Information Technology': Found 1 new jobs on page start=925
+2026-03-15 18:20:10,044 [INFO] Keyword 'Information Technology': Found 3 new jobs on page start=950
+2026-03-15 18:20:12,447 [INFO] Keyword 'Information Technology': Found 3 new jobs on page start=975
+2026-03-15 18:20:14,755 [ERROR] Search error 400 for Information Technology at 1000
+2026-03-15 18:20:14,755 [INFO] Searching for: CÔNG NGHỆ THÔNG TIN
+2026-03-15 18:20:15,282 [INFO] Keyword 'Công nghệ thông tin': Found 1 new jobs on page start=0
+2026-03-15 18:20:17,999 [INFO] Keyword 'Công nghệ thông tin': Found 1 new jobs on page start=25
+2026-03-15 18:20:20,231 [INFO] Keyword 'Công nghệ thông tin': Found 1 new jobs on page start=50
+2026-03-15 18:20:23,224 [INFO] Keyword 'Công nghệ thông tin': Found 3 new jobs on page start=75
+2026-03-15 18:20:26,347 [INFO] Keyword 'Công nghệ thông tin': Found 3 new jobs on page start=100
+2026-03-15 18:20:28,933 [INFO] Keyword 'Công nghệ thông tin': Found 6 new jobs on page start=125
