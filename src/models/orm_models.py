@@ -3,8 +3,8 @@ from tortoise.contrib.pydantic import pydantic_model_creator
 
 class SiteExtractRule(models.Model):
     id = fields.IntField(pk=True)
-    site_name = fields.TextField()
-    field_name = fields.TextField()
+    site_name = fields.CharField(max_length=100)
+    field_name = fields.CharField(max_length=100)
     selector = fields.TextField()
     selector_type = fields.CharField(max_length=10, default="css")
     version = fields.IntField(default=1)
@@ -17,6 +17,7 @@ class SiteExtractRule(models.Model):
 
     class Meta:
         table = "site_extract_rules"
+        schema = "jobranking"
         unique_together = (("site_name", "field_name", "version"),)
 
 class Job(models.Model):
@@ -32,6 +33,8 @@ class Job(models.Model):
     posted_date = fields.DatetimeField(null=True)
     contract_type = fields.TextField(null=True)
     experience_level = fields.TextField(null=True)
+    industry = fields.TextField(null=True)
+    job_function = fields.TextField(null=True)
     skills = fields.JSONField(default=[]) # Tortoise JSONField for arrays
     dedup_hash = fields.CharField(max_length=64, unique=True, index=True)
     created_at = fields.DatetimeField(auto_now_add=True)
@@ -39,13 +42,15 @@ class Job(models.Model):
 
     class Meta:
         table = "jobs"
+        schema = "jobranking"
 
 class JobSource(models.Model):
     id = fields.IntField(pk=True)
     job = fields.ForeignKeyField("models.Job", related_name="sources")
-    site_name = fields.TextField()
-    source_url = fields.TextField(unique=True)
+    site_name = fields.CharField(max_length=100)
+    source_url = fields.CharField(max_length=500, unique=True)
     crawled_at = fields.DatetimeField(auto_now_add=True)
 
     class Meta:
         table = "job_sources"
+        schema = "jobranking"

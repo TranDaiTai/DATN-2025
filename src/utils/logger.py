@@ -11,16 +11,21 @@ def setup_logger():
             structlog.processors.JSONRenderer()
         ],
         context_class=dict,
-        logger_factory=structlog.PrintLoggerFactory(),
-        wrapper_class=structlog.BoundLogger,
+        logger_factory=structlog.stdlib.LoggerFactory(),
+        wrapper_class=structlog.stdlib.BoundLogger,
         cache_logger_on_first_use=True,
     )
 
     # Standard logging redirect to structlog
     logging.basicConfig(
         format="%(message)s",
-        stream=sys.stdout,
+        handlers=[
+            logging.StreamHandler(sys.stdout),
+            logging.FileHandler("app.log", encoding="utf-8")
+        ],
         level=logging.INFO,
     )
+    from .logger import logger
+    logger.info("logger.initialized", file="app.log")
 
 logger = structlog.get_logger()

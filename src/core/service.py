@@ -43,8 +43,12 @@ class ScraperService:
             # Bước 1: Thu thập danh sách từ tất cả các Plugin
             for plugin in self.active_plugins:
                 listings = await plugin.crawl_listings(keywords)
+                logger.info("service.run.plugin_results", plugin=plugin.__class__.__name__, count=len(listings))
                 for item in listings:
                     await self.queue.push(item)
+            
+            queue_size = await self.queue.size()
+            logger.info("service.run.queue_ready", total_items=queue_size)
             
             # Bước 2: Xử lý chi tiết từ Queue
             while await self.queue.size() > 0:
@@ -63,11 +67,16 @@ class ScraperService:
 
     async def _process_single_job(self, item: dict):
         """Logic xử lý nội bộ cho từng Job đơn lẻ"""
+        logger.info("service.process_job.start", url=item.get('url'))
         # Tìm plugin phù hợp cho trang này
         plugin = next((p for p in self.active_plugins if p.__class__.__name__.lower().startswith(item['site_name'])), None)
-        if not plugin: return
+        
+        if not plugin:
+            logger.warning("service.process_job.no_plugin", site_name=item.get('site_name'))
+            return
 
         raw_data = await plugin.extract_details(item)
+        logger.info("service.process_job.extracted", success=bool(raw_data), url=item.get('url'))
         if raw_data:
             # Lưu vào Database thông qua Repository
             job_obj, created = await self.job_repo.update_or_create_job(raw_data)

@@ -1,0 +1,8 @@
+playwright
+playwright-stealth
+beautifulsoup4
+tortoise-orm[asyncpg]
+pydantic-settings
+aiohttp
+python-dotenv
+Loguru

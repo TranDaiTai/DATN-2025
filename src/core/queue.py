@@ -21,18 +21,21 @@ class InMemoryQueue(URLQueue):
     def __init__(self):
         self.queue = asyncio.PriorityQueue()
         self.seen_urls = set()
+        self.counter = 0
 
     async def push(self, item: Dict[str, Any], priority: int = 0):
         url = item.get("url")
         if url and url not in self.seen_urls:
+            self.counter += 1
             # lower number = higher priority in PriorityQueue
-            await self.queue.put((priority, item))
+            # Use counter to avoid dict comparison when priorities are equal
+            await self.queue.put((priority, self.counter, item))
             self.seen_urls.add(url)
 
     async def pop(self) -> Optional[Dict[str, Any]]:
         if self.queue.empty():
             return None
-        priority, item = await self.queue.get()
+        priority, count, item = await self.queue.get()
         return item
 
     async def size(self) -> int:

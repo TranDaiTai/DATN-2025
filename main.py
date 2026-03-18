@@ -1,25 +1,24 @@
 import asyncio
-from dotenv import load_dotenv
 from tortoise import Tortoise
 
-# Nạp cấu hình chuyên nghiệp từ Pydantic Settings
+# Configuration & Design Patterns
 from src.core.config import settings
-
-# Các thành phần lõi
-from src.core.browser import BrowserManager
-from src.core.storage import StorageManager
+from src.core.factories.storage_factory import StorageFactory
+from src.core.factories.browser_factory import BrowserFactory
 from src.core.repository import RuleRepository, JobRepository
 from src.core.recovery import AISelectorRecovery
 from src.core.llm_provider import get_llm_provider
 from src.core.queue import InMemoryQueue, RedisQueue
 from src.adapters.proxy_adapter import DirectProxy
-from src.adapters.s3_adapter import S3StorageAdapter
+
+# Service & Events
 from src.core.service import ScraperService
 from src.core.events import event_dispatcher
 from src.plugins.linkedin_plugin import LinkedinPlugin
 from src.utils.logger import setup_logger, logger
+from src.utils.seeding.rules import seed_all_rules
 
-# Khởi tạo logger có cấu trúc (JSON)
+# Initialize Loggers
 setup_logger()
 
 async def on_job_processed(data):
@@ -27,6 +26,21 @@ async def on_job_processed(data):
     logger.info("event.handler.job_processed", 
                 job_title=data['title'], 
                 is_new=data['is_new'])
+
+async def init_db():
+    """Tách biệt logic khởi tạo DB"""
+    await Tortoise.init(
+        db_url=settings.DATABASE_URL,
+        modules={'models': ['src.models.orm_models']}
+    )
+    conn = Tortoise.get_connection("default")
+    await conn.execute_script("CREATE SCHEMA IF NOT EXISTS jobranking;")
+    
+    # Reset schema if columns changed (Uncomment below if you need to recreate tables)
+    # await conn.execute_script("DROP SCHEMA IF EXISTS jobranking CASCADE; CREATE SCHEMA jobranking;")
+    
+    await Tortoise.generate_schemas()
+    await seed_all_rules()
 
 async def main():
     """
@@ -36,56 +50,37 @@ async def main():
     logger.info("app.start", status="initializing")
 
     try:
-        # 1. Khởi tạo Database (ORM)
-        await Tortoise.init(
-            db_url=settings.DATABASE_URL,
-            modules={'models': ['src.models.orm_models']}
-        )
-        await Tortoise.generate_schemas()
-        
-        # 2. Khởi tạo các thành phần Adapter & Core
-        s3_adapter = None
-        if settings.S3_BUCKET:
-            s3_adapter = S3StorageAdapter(
-                bucket_name=settings.S3_BUCKET,
-                access_key=settings.S3_ACCESS_KEY,
-                secret_key=settings.S3_SECRET_KEY,
-                region=settings.S3_REGION,
-                endpoint_url=settings.S3_ENDPOINT
-            )
+        await init_db()
 
-        storage = StorageManager(s_3_adapter=s3_adapter)
+        # 1. Khởi tạo Core thông qua Design Patterns
+        storage = StorageFactory.create_storage()
         proxy = DirectProxy()
-        browser = BrowserManager(proxy)
+        browser = BrowserFactory.create_browser(proxy)
+        
         llm = get_llm_provider({
             "type": settings.LLM_TYPE,
             "base_url": settings.OLLAMA_BASE_URL,
-            "model": settings.OLLAMA_MODEL,
+            "model": settings.OPENAI_MODEL if settings.LLM_TYPE == "openai" else settings.OLLAMA_MODEL,
             "api_key": settings.OPENAI_API_KEY
         })
         recovery = AISelectorRecovery(llm)
         
-        # Repository Pattern
+        # Repositories & Queue
         rule_repo = RuleRepository()
         job_repo = JobRepository()
-        
-        # Queue (Có thể đổi sang RedisQueue dễ dàng)
         queue = InMemoryQueue()
         
-        # 3. Khởi tạo Service Layer (Orchestrator)
+        # 2. Service Layer & Events
         scraper_service = ScraperService(
             browser, storage, rule_repo, job_repo, recovery, queue
         )
-        
-        # Đăng ký các sự kiện (Observer Pattern)
         event_dispatcher.subscribe("job.processed", on_job_processed)
         
-        # 4. Cắm Plugin và Chạy
+        # 3. Register Plugins & Run
         linkedin_plugin = LinkedinPlugin(browser, storage, rule_repo, recovery)
         scraper_service.register_plugin(linkedin_plugin)
         
-        # Chạy quy trình thu thập và trích xuất
-        keywords = ["Python Developer", "ReactJS"]
+        keywords = ["IT"]
         await scraper_service.run(keywords)
 
     except Exception as e:

@@ -22,7 +22,7 @@ class EventDispatcher:
             tasks = [asyncio.create_task(listener(data)) for listener in self._listeners[event_type]]
             if tasks:
                 await asyncio.gather(*tasks, return_exceptions=True)
-        logger.debug("event.emitted", event=event_type)
+        logger.debug("event.emitted", event_name=event_type)
 
 # Singleton Instance
 event_dispatcher = EventDispatcher()

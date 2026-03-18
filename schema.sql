@@ -1,5 +1,8 @@
+-- Create Schema
+CREATE SCHEMA IF NOT EXISTS jobranking;
+
 -- Rule Extraction DB Schema
-CREATE TABLE IF NOT EXISTS site_extract_rules (
+CREATE TABLE IF NOT EXISTS jobranking.site_extract_rules (
   id           SERIAL PRIMARY KEY,
   site_name    TEXT NOT NULL,
   field_name   TEXT NOT NULL,
@@ -17,7 +20,7 @@ CREATE TABLE IF NOT EXISTS site_extract_rules (
 );
 
 -- Main Jobs Table
-CREATE TABLE IF NOT EXISTS jobs (
+CREATE TABLE IF NOT EXISTS jobranking.jobs (
   id           UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   job_title    TEXT NOT NULL,
   company_name TEXT NOT NULL,
@@ -30,6 +33,8 @@ CREATE TABLE IF NOT EXISTS jobs (
   posted_date  TIMESTAMPTZ,
   contract_type TEXT,
   experience_level TEXT,
+  industry     TEXT,
+  job_function TEXT,
   skills       TEXT[], -- Array of extracted skills (NER)
   dedup_hash   TEXT UNIQUE, -- MD5/SHA256 of normalized JD
   created_at   TIMESTAMPTZ DEFAULT now(),
@@ -37,15 +42,15 @@ CREATE TABLE IF NOT EXISTS jobs (
 );
 
 -- Job Sources (for multi-link jobs)
-CREATE TABLE IF NOT EXISTS job_sources (
+CREATE TABLE IF NOT EXISTS jobranking.job_sources (
   id           SERIAL PRIMARY KEY,
-  job_id       UUID REFERENCES jobs(id) ON DELETE CASCADE,
+  job_id       UUID REFERENCES jobranking.jobs(id) ON DELETE CASCADE,
   site_name    TEXT NOT NULL,
   source_url   TEXT NOT NULL UNIQUE,
   crawled_at   TIMESTAMPTZ DEFAULT now()
 );
 
 -- Indices for search and dedup
-CREATE INDEX IF NOT EXISTS idx_jobs_dedup_hash ON jobs(dedup_hash);
-CREATE INDEX IF NOT EXISTS idx_jobs_company_title ON jobs(company_name, job_title);
-CREATE INDEX IF NOT EXISTS idx_rules_site_field ON site_extract_rules(site_name, field_name);
+CREATE INDEX IF NOT EXISTS idx_jobs_dedup_hash ON jobranking.jobs(dedup_hash);
+CREATE INDEX IF NOT EXISTS idx_jobs_company_title ON jobranking.jobs(company_name, job_title);
+CREATE INDEX IF NOT EXISTS idx_rules_site_field ON jobranking.site_extract_rules(site_name, field_name);
